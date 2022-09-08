@@ -108,4 +108,10 @@ return [
 
     'password_timeout' => 10800,
 
+    'oauth2_client_id' => env('OAUTH2_CLIENT_ID', 'Laravel'),
+    'oauth2_client_secret' => env('OAUTH2_CLIENT_SECRET', 'Laravel'),
+    'oauth2_client_authorize_url' => env('OAUTH2_CLIENT_AUTHORIZE_URL', 'Laravel'),
+    'oauth2_client_access_token_url' => env('OAUTH2_CLIENT_ACCESS_TOKEN_URL', 'Laravel'),
+
+
 ];
