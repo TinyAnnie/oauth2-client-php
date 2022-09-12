@@ -5,6 +5,6 @@ OAUTH2_CLIENT_SECRET=
 OAUTH2_CLIENT_AUTHORIZE_URL=
 OAUTH2_CLIENT_ACCESS_TOKEN_URL=
 
-npm run serve
+php artisan serve
 
 curl --location --request GET 'http://localhost:8000/api/access-token'
