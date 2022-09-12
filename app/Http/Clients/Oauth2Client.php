@@ -42,6 +42,7 @@ class Oauth2Client extends Client
                 return $provider->getHeaders($accessToken);
             }
             \Log::info("Token expired");
+            $this->tokenPersistence->deleteToken();
         }
         try {
             \Log::info("Get new token");
