@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Helpers;
+namespace App\Http\Cache;
 
 use kamermans\OAuth2\Token\TokenInterface;
 use League\OAuth2\Client\Token\AccessToken;
